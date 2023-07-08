@@ -57,7 +57,9 @@ function setup(){
 }
 
 function draw(){
+    //Ajuste o tamanho da tela e mude a cor de fundo (background).
     background("lightgreen");
+    //Chame update() para atualizar o motor de física em draw()
     Engine.update(engine);
 
   //criada forma para o plano e suporte
